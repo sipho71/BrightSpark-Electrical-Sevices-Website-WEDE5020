@@ -10,7 +10,7 @@ MODULE NAME:Web Development
 
 MODULE CODE:WEDE5020
 
-# Organisation Overview 
+# Project Overview 
 
 Name: BrightSpark Electrical Services 
 
