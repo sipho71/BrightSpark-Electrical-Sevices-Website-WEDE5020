@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=">
+    <title>Enquiry | BrightSpark Elertical Services</title>
+     
+</head>
+<body>
+    <header>
+        <h1>BrightSpark Elertical Services</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="enquiry.html">Enquiry</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header> 
+
+    <main>
+         <section>
+<h2>Service Enquiry Form</h2>
+<p>Please fill out the form below, and a member of our team will contact you shortly.</p>
+</section>
+
+<section>
+<form action="#" method="post">
+<fieldset>
+<legend>Contact Information</legend>
+<label for="fname">Full Name:</label><br>
+<input type="text" id="fname" name="fname" placeholder="Enter your name" required><br><br>
+
+<label for="u-email">Email Address:</label><br>
+<input type="email" id="u-email" name="u-email" placeholder="example@email.com" required><br><br>
+
+<label for="u-phone">Phone Number:</label><br>
+<input type="tel" id="u-phone" name="u-phone" placeholder="012 345 6789"><br><br>
+</fieldset>
+
+<br>
+
+<fieldset>
+<legend>Work Requirements</legend>
+
+<p>What type of property is this for?</p>
+<input type="radio" id="res" name="prop-type" value="Residential">
+<label for="res">Home (Residential)</label><br>
+<input type="radio" id="comm" name="prop-type" value="Commercial">
+<label for="comm">Small Business (Commercial)</label><br><br>
+
+<label for="service-list">Required Service:</label><br>
+<select id="service-list" name="service-list">
+<option value="install">Electrical Installation</option>
+<option value="repair">Electrical Repair</option>
+<option value="maint">Electrical Maintenance</option>
+</select><br><br>
+
+<label for="urgency">How urgent is this?</label><br>
+<input type="range" id="urgency" name="urgency" min="1" max="5">
+<span>(1 = Low, 5 = Emergency)</span><br><br>
+</fieldset>
+
+<br>
+
+<fieldset>
+<legend>Additional Information</legend>
+<label for="details">Describe the issue or project:</label><br>
+<textarea id="details" name="details" rows="5" cols="40" placeholder="Tell us more about what you need..."></textarea><br><br>
+
+<label for="pref-date">Preferred Date for Visit:</label><br>
+<input type="date" id="pref-date" name="pref-date"><br><br>
+</fieldset>
+
+<br>
+
+<button type="submit">Send Enquiry</button>
+<button type="reset">Clear Form</button>
+</form>
+</section>
+    </main> 
+
+    <footer>
+        <P>&copy; 2026 BrightSpark Elertical Services</P>
+    </footer>
+    
+</body>
+</html>
