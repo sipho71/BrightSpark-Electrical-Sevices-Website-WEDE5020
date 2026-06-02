@@ -71,7 +71,18 @@ Create low-fidelity wireframes and plan the structure of each webpage (homepage,
 
 Develop the website using HTML only, creating all main pages and adding content such as text, images, and links. 
 
- <img width="1024" height="768" alt="Pastel Pink and Peach Gradient Creative Agency Graph " src="https://github.com/user-attachments/assets/a5a80809-22b4-41f1-952b-d64598f2bfca" />
+ <img width="1024" height="768" alt="Pastel Pink and Peach Gradient Creative Agency Graph " src="https://github.com/user-attachments/assets/a5a80809-22b4-41f1-952b-d64598f2bfca" /> 
+
+ ## Project Changelog 
+
+### [v1.0.0] - Part 1 HTML Structure
+#### Added
+- **Multi-Page Architecture:** Created five core interconnected web pages (`index.html`, `about.html`, `services.html`, `enquiry.html`, `contact.html`) to form the site's structural baseline[span_5](start_span)[span_5](end_span)[span_6](start_span)[span_6](end_span)[span_7](start_span)[span_7](end_span)[span_8](start_span)[span_8](end_span)[span_9](start_span)[span_9](end_span).
+- **Semantic HTML5 Markup:** Utilized proper semantic structural containers, including `<header>`, `<nav>`, `<main>`, `<section>`, and `<footer>` elements across all documents to manage content flow[span_10](start_span)[span_10](end_span)[span_11](start_span)[span_11](end_span)[span_12](start_span)[span_12](end_span)[span_13](start_span)[span_13](end_span)[span_14](start_span)[span_14](end_span).
+- **Global Navigation System:** Implemented a unified top-header navigation link bar on every page to ensure seamless user routing across the entire website[span_15](start_span)[span_15](end_span)[span_16](start_span)[span_16](end_span)[span_17](start_span)[span_17](end_span)[span_18](start_span)[span_18](end_span)[span_19](start_span)[span_19](end_span).
+- **Responsive Media Embeds:** Integrated a functional, lazy-loading Google Maps interactive iframe on the contact layout page to display the physical branch location[span_20](start_span)[span_20](end_span).
+- **Interactive Multi-Input Form:** Constructed a multi-fieldset "Service Enquiry Form" complete with structured input types including text, email, telephone, custom range sliders, dropdown option selections, dates, and textareas[span_21](start_span)[span_21](end_span).
+- **Media Asset Infrastructure:** Embedded relative graphic design source paths for core brand imagery, featuring dedicated product alt-text and structured width constraints[span_22](start_span)[span_22](end_span)[span_23](start_span)[span_23](end_span).
 
 # REFERANCE:
 
