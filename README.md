@@ -94,3 +94,20 @@ This project is a fully functional corporate website developed for BrightSpark E
 * **Fluid Responsive Layout:** Multi-tier media query breakpoints ensuring seamless optimization across desktop, tablet, and mobile displays.
 * **Interactive Controls:** Complete pseudo-class styling mapping (`:hover`, `:focus`, `:active`) across all form actions and navigation menus.
 
+  ## Changelog
+
+### [v2.0.0] - Part 2 Submission Updates
+#### Added
+- Implemented an external stylesheet (`style.css`) to isolate and manage site rules uniformly.
+- Added comprehensive interactive pseudo-classes to enhance structural form tracking and user link clicks.
+- Integrated standard media query breakpoints to naturally support mobile viewports.
+
+#### Changed
+- Refactored project directory hierarchy by grouping loose assignment markup into a designated `HTML` folder to fulfill structural curriculum requirements.
+- Updated internal asset paths using explicit relative parameters (`../css/style.css`) to ensure consistent stylesheet linkage.
+
+##  References
+* MDN Web Docs. (2026). *Using CSS custom properties (variables)*. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties [Accessed: 10 May 2026].
+* W3Schools. (2026). *CSS Responsive Web Design - Media Queries*. Available at: https://www.w3schools.com/css/css_rwd_mediaqueries.asp [Accessed: 10 May 2026].
+
+
