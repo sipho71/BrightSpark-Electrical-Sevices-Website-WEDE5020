@@ -81,4 +81,16 @@ Mozilla Developer Network (2024) HTML basics. Available at: https://developer.mo
 
 • Krug, S. (2014) Don't Make Me Think: A Common Sense Approach to Web Usability. 3rd edn. Berkeley: New Riders.
 
-• WhatWG (2024) HTML Living Standard. Available at: https://html.spec.whatwg.org
+• WhatWG (2024) HTML Living Standard. Available at: https://html.spec.whatwg.org 
+
+# BrightSpark Electrical Services Website - WED5020 POE Part 2
+
+## Project Overview
+This project is a fully functional corporate website developed for BrightSpark Electrical Services. It demonstrates semantic HTML5 architecture built in Part 1, enhanced with an external corporate-branded, fluid CSS design system completed in Part 2.
+
+## Key Features
+* **Semantic HTML5 Infrastructure:** Organized page components ensuring clean element flow.
+* **Consistent Corporate Branding:** Custom color variables carefully matched to the BrightSpark corporate design brief.
+* **Fluid Responsive Layout:** Multi-tier media query breakpoints ensuring seamless optimization across desktop, tablet, and mobile displays.
+* **Interactive Controls:** Complete pseudo-class styling mapping (`:hover`, `:focus`, `:active`) across all form actions and navigation menus.
+
