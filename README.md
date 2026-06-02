@@ -109,5 +109,8 @@ This project is a fully functional corporate website developed for BrightSpark E
 ##  References
 * MDN Web Docs. (2026). *Using CSS custom properties (variables)*. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties [Accessed: 10 May 2026].
 * W3Schools. (2026). *CSS Responsive Web Design - Media Queries*. Available at: https://www.w3schools.com/css/css_rwd_mediaqueries.asp [Accessed: 10 May 2026].
+* https://youtube.com/playlist?list=PLP9IO4UYNF0UCaUSF3XNZ1U9f01E5h5PM&si=pv2wzNz8jQM3cYt8
+* https://youtu.be/8HkGwdUDOcc?si=OfRyXlV0To4F9kY8
+* https://youtu.be/KCWFaZJx_Ig?si=XrZnlwGvTBFeoxBc
 
 
