@@ -125,3 +125,115 @@ This project is a fully functional corporate website developed for BrightSpark E
 * https://youtu.be/KCWFaZJx_Ig?si=XrZnlwGvTBFeoxBc
 
 
+# BrightSpark Electrical Services Website - WED5020 POE Part 3
+
+## project overview
+
+BrightSpark Electrical Services is a responsive, multi-page web application designed for a local electrical service provider in Kuilsriver, Cape Town. Part 3 introduces the interactive client-side engine, shifting the site from a static brochure into a dynamic, user-centric platform. This phase focuses on vanilla JavaScript functionality, advanced form validation, local SEO, and fluid mobile responsiveness to fix previous display bugs on narrow smartphone screens (like iPhones).
+
+Dynamic Search & Content Filter (services.html): A real-time JavaScript search input and category button filter (Installations, Repairs, Maintenance) that dynamically updates and displays matching service cards instantly without reloading the page.
+
+Interactive Image Lightbox Modal (services.html): A pure JavaScript image viewer modal that displays a focused, semi-transparent screen overlay with high-resolution image previews and dynamic captions when clicked.
+
+Defensive Form Validation (enquiry.html & contact.html): Added client-side logic to evaluate inputs (name strings, standard 10-digit South African mobile formatting, email regex patterns, range parameters, and date selections). Submissions bypass raw browser alert boxes to display stylized inline confirmation cards.
+
+Fluid Mobile Responsiveness: Corrected broken viewport metadata tags (initial-scale=1.0) and applied unified scaling rules (max-width: 100%, box-sizing: border-box, flex-wrapping) to prevent content overflow and clipping on small displays.
+
+Localized SEO & Asset Accessibility: Configured distinct <title> and <meta description> tags on all structural routes, removed redundant file extensions (.jpg.jpg), and assigned semantic alt attributes to visual assets.
+
+## File Stucture
+
+BrightSpark_Website/
+│
+
+├── HTML/ (index.html, about.html, services.html, enquiry.html, contact.html)
+
+├── CSS/  (style.css - Central Design Tokens & Mobile Media Queries)
+
+└── JS/   (script.js - Unified JavaScript System Engine)
+
+## Changelog — BrightSpark Electrical Services Website
+
+## [Version 3.3] 
+
+### Fixed
+- Fixed missing closing `}` brace in `style.css` media query (max-width: 480px)
+  that was trapping lightbox, map, filter, and section 11 styles inside it
+- Fixed broken JavaScript path casing from `../JS/script.js` to `../js/script.js`
+  on `services.html` and `enquiry.html`
+- Fixed typo in business name from "Elertical" to "Electrical" on `index.html`
+  and `about.html`
+- Fixed Google Maps iframe incorrectly placed inside `<form>` tag on `contact.html`
+- Fixed radio button validation bug in `script.js` — updated selector from
+  `input[name="prop-type"]` to `input[name="property-type"]` to match HTML
+
+### Added
+- Added `name` attributes to all contact form fields for Formspree integration
+- Added `name` attributes to all enquiry form fields for Formspree integration
+- Added Formspree integration to `contact.html` for real email delivery
+- Added Formspree integration to `enquiry.html` for real email delivery
+- Added `<meta charset="UTF-8">` to `index.html` which was missing
+- Added meta description and keywords to `about.html`
+- Added meta description and keywords to `enquiry.html`
+- Added meta description and keywords to `contact.html`
+- Fixed `<title>` tag on `about.html` to include full business name
+
+### Removed
+- Removed empty Leaflet map `<div id="map">` from `contact.html`
+- Removed Leaflet CSS and JS library links from `contact.html`
+- Removed duplicate map on contact page (kept Google Maps iframe only)
+- Removed simulated SMTP success block from contact form JS
+- Removed simulated success block from enquiry form JS
+
+---
+
+## [Version 3.2] 
+
+### Added
+- Added interactive Leaflet map on `contact.html` with marker for
+  17 Primrose Street, Kuilsriver
+- Added gallery lightbox modal on `services.html` — click images to
+  expand with caption display
+- Added dynamic service filter buttons on `services.html` (All, 
+  Installations, Repairs, Maintenance)
+- Added live search input on `services.html` to filter services by keyword
+- Added form validation to `enquiry.html` with error messages for all fields
+- Added form validation to `contact.html` with error messages
+- Added urgency range slider to enquiry form with dynamic label display
+- Added success response box on enquiry form submission
+- Added simulated SMTP loading response on contact form submission
+- Added scroll-to-top animation on successful enquiry submission
+- Added section scroll animation using Intersection Observer in `script.js`
+- Added Google Maps embed iframe on `contact.html`
+- Added responsive mobile breakpoints in `style.css` for 768px and 480px
+- Added filter button active state styling in `style.css`
+- Added lightbox modal CSS with zoom animation
+
+---
+
+## [Version 3.1]
+
+### Added
+- Created initial website structure with 5 pages:
+  `index.html`, `about.html`, `services.html`, `enquiry.html`, `contact.html`
+- Created `style.css` with BrightSpark brand color scheme
+  (dark blue, electric blue, bright yellow)
+- Created `script.js` for JavaScript functionality
+- Added header with navigation links across all pages
+- Added footer with copyright notice across all pages
+- Added BrightSpark logo to `index.html`
+- Added service listings with images on `services.html`
+- Added enquiry form with multiple fieldsets on `enquiry.html`
+- Added contact details and social media links on `contact.html`
+- Added SEO meta tags (title, description, keywords) to `index.html`
+  and `services.html`
+- Added responsive viewport meta tag to all pages
+- Added CSS custom properties (variables) for consistent theming
+- Added image alt-text to all images for accessibility and SEO
+
+## References
+
+* Leaflet, 2026. *Leaflet JavaScript Library Reference*. Available at: [https://leafletjs.com/reference.html](https://leafletjs.com/reference.html).
+* MDN Web Docs, 2026. *Document Object Model (DOM) API*. Available at: [https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model).
+* OpenStreetMap Foundation, 2026. *OpenStreetMap Copyright and License*. Available at: [https://www.openstreetmap.org/copyright](https://www.google.com/search?q=https://www.openstreetmap.org/copyright).
+* W3Schools, 2026. *JavaScript Form Validation*. Available at: [https://www.w3schools.com/js/js_validation.asp](https://www.w3schools.com/js/js_validation.asp).
